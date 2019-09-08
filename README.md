@@ -1,7 +1,5 @@
 # laravel-setup
-```
-setting up laravel
-```
+> setting up laravel
 
 # Initialize laravel Project
 ```
@@ -14,7 +12,9 @@ sudo gedit /etc/hosts
 ```
 
 Add this line at end
-> 127.0.0.1 laratest.test
+```
+127.0.0.1 laratest.test
+```
 
 # Setting up 000-default.conf
 ```
