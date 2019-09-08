@@ -11,10 +11,10 @@ Add this line at end
 <code> 127.0.0.1 laratest.test </code>
 
 # Setting up 000-default.conf
-<code> sudo gedit /etc/apache2/sites-available/000-default.conf </code>
+> sudo gedit /etc/apache2/sites-available/000-default.conf
 
-Add the followings at end:
-
+# Add the followings at end:
+```
   <VirtualHost *:80>
         DocumentRoot /var/www/html/laratest/public
        	ServerName laratest.test
@@ -26,3 +26,4 @@ Add the followings at end:
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
   </VirtualHost>
+```
