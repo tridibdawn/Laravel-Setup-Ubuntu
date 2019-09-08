@@ -1,14 +1,20 @@
 # laravel-setup
+```
 setting up laravel
+```
 
 # Initialize laravel Project
+```
 composer create-project --prefer-dist laravel/laravel blog
+```
 
 # Setting up hosts
-<code> sudo gedit /etc/hosts </code>
+```
+sudo gedit /etc/hosts
+```
 
 Add this line at end
-<code> 127.0.0.1 laratest.test </code>
+> 127.0.0.1 laratest.test
 
 # Setting up 000-default.conf
 > sudo gedit /etc/apache2/sites-available/000-default.conf
