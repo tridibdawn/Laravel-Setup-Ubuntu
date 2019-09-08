@@ -20,9 +20,9 @@ Add the followings at end:
         DocumentRoot /var/www/html/laratest/public
        	ServerName laratest.test
 
-   	   <Directory /var/www/html/laratest/public/>
+   #<Directory /var/www/html/laratest/public/>
        		    AllowOverride All
-   	    </Directory>
+   #</Directory>
         
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
