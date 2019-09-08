@@ -11,7 +11,7 @@ composer create-project --prefer-dist laravel/laravel blog
 sudo gedit /etc/hosts
 ```
 
-Add this line at end
+# Add this line at end
 ```
 127.0.0.1 laratest.test
 ```
