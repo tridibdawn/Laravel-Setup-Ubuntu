@@ -14,18 +14,15 @@ Add this line at end
 <code> sudo gedit /etc/apache2/sites-available/000-default.conf </code>
 
 Add the followings at end:
-<code>
-  <pre>
+
   <VirtualHost *:80>
         DocumentRoot /var/www/html/laratest/public
        	ServerName laratest.test
 
-   Directory /var/www/html/laratest/public/
+   <Directory /var/www/html/laratest/public/>
        		    AllowOverride All
-   /Directory
+   </Directory>
         
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
   </VirtualHost>
-  </pre>
-</code>
