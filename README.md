@@ -17,7 +17,9 @@ Add this line at end
 > 127.0.0.1 laratest.test
 
 # Setting up 000-default.conf
-> sudo gedit /etc/apache2/sites-available/000-default.conf
+```
+sudo gedit /etc/apache2/sites-available/000-default.conf
+```
 
 # Add the followings at end:
 ```
