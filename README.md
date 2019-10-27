@@ -1,4 +1,4 @@
-# laravel-setup
+# Laravel Setup Ubuntu
 > setting up laravel
 
 # Initialize laravel Project
